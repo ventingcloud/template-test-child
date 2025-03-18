@@ -23,5 +23,5 @@ jobs:
         source_repo_path: ventingcloud/template-test
         upstream_branch: main # defaults to main
         pr_labels: template_sync # defaults to template_sync
-        source_gh_token: ${{ secrets.GITHUB_TOKEN }}
-        target_gh_token: ${{ secrets.TARGET_TOKEN }}
+        #source_gh_token: ${{ secrets.GITHUB_TOKEN }}
+        #target_gh_token: ${{ secrets.TARGET_TOKEN }}
